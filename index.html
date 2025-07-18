@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CV Martín Emilio Sánchez – Estilo Mercado Pago</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f4f6f8;
+      color: #333;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    @media print {
+      body {
+        zoom: 90%;
+      }
+      .section {
+        page-break-inside: avoid;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      .container {
+        padding-top: 60px;
+      }
+      @page {
+        margin: 0;
+      }
+      header, footer {
+        display: none;
+      }
+    }
+
+    .header {
+      background: linear-gradient(90deg, #009EE3 0%, #007AC1 100%);
+      height: 180px;
+      position: relative;
+    }
+
+    .intro {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      top: -40px;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      background: white;
+    }
+
+    .header-text {
+      margin-left: 25px;
+      margin-top: 40px;
+      color: #333;
+    }
+
+    .header-text h1 {
+      font-size: 26px;
+      margin: 0 0 6px;
+    }
+
+    .header-text h2 {
+      font-size: 16px;
+      margin: 0 0 14px;
+      font-weight: 400;
+    }
+
+    .contact-info {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .icon-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background-color: #007AC1;
+      color: white;
+      text-decoration: none;
+    }
+
+    .icon-btn svg {
+      width: 16px;
+      height: 16px;
+      fill: white;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 40px;
+    }
+
+    .section {
+      background: white;
+      border-radius: 10px;
+      padding: 25px;
+      margin: 40px 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    .section h3 {
+      color: #007AC1;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .job-title {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .job-company {
+      font-style: italic;
+      color: #666;
+    }
+
+    .job-dates {
+      color: #999;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header"></div>
+  <div class="intro">
+    <img src="martin.png" alt="Foto de Martín" class="profile-pic">
+    <div class="header-text">
+      <h1>Martín Emilio Sánchez</h1>
+      <h2>📍 Buenos Aires, Argentina</h2>
+      <div class="contact-info">
+        <a href="mailto:martindon83@gmail.com" class="icon-btn" title="Correo">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm8 7.586L5.707 6.293 4.293 7.707 12 15.414l7.707-7.707-1.414-1.414L12 11.586z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/mart%C3%ADn-emilio-s%C3%A1nchez-6a328810a/" class="icon-btn" title="LinkedIn" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zm-46.44-340C24.4 108 0 83.6 0 54.1 0 24.6 24.4.2 53.84.2c29.44 0 53.84 24.4 53.84 53.9 0 29.5-24.4 53.9-53.84 53.9zM447.9 448h-92.4V302.4c0-34.7-.7-79.2-48.2-79.2-48.2 0-55.6 37.7-55.6 76.6V448H159.2V148.9h88.7v40.8h1.3c12.4-23.4 42.5-48.2 87.4-48.2 93.5 0 110.7 61.5 110.7 141.3V448z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="section">
+      <h3>📄 Perfil Profesional</h3>
+      <p>Analista Programador Sr. con más de 15 años de experiencia en desarrollo y mantenimiento de sistemas core bancarios sobre plataformas Mainframe. Experto en entornos COBOL/DB2/CICS, con dominio en procesamiento batch, transaccional online, gestión de datos masivos y automatización de procesos.<br>
+      Alta capacidad para resolver problemas complejos, mejorar performance, y trabajar en entornos ágiles. Reconocido por su compromiso, proactividad y comunicación efectiva con usuarios de negocio y equipos técnicos. Actualmente interesado en proyectos de mantenimiento o transformación digital, migración de sistemas legacy y mentoría técnica.</p>
+    </div>
+    <div class="section">
+      <h3>💡 Habilidades Técnicas</h3>
+      <ul>
+        <li><strong>Lenguajes y entornos:</strong> COBOL (Batch y Online), JCL, REXX, Easytrieve, CLIST</li>
+        <li><strong>Bases de datos:</strong> DB2 (modelado, consultas avanzadas, administración), VSAM</li>
+        <li><strong>Transacciones y UI:</strong> CICS (BMS Maps, programación conversacional y pseudo-conversacional)</li>
+        <li><strong>Mainframe:</strong> z/OS, TSO/ISPF, SDSF, OMVS</li>
+        <li><strong>Herramientas:</strong> File-AID, Xpediter, SPUFI, QMF, Strobe, Debug Tool, Changeman, Endeavor</li>
+        <li><strong>Mensajería:</strong> MQSeries (envío, recepción, integración con sistemas externos)</li>
+        <li><strong>Utilitarios:</strong> IDCAMS, IEBGENER, IKJEFT01, SYNCSORT, Control-M</li>
+        <li><strong>Metodologías:</strong> Scrum, Kanban, ITIL, Waterfall</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h3>📚 Experiencia Profesional</h3>
+      <p><strong>CDA Informática – Banco Galicia (Cliente)</strong><br>
+      <em>📍 Buenos Aires | Noviembre 2009 – Actualidad</em></p>
+      <ul>
+        <li>Especialista en sistemas de Contabilidad, Impuestos, Integrador de Transacciones e Información de Deudores.</li>
+        <li>Desarrollo y mantenimiento de procesos batch críticos utilizando COBOL + DB2.</li>
+        <li>Implementación y soporte de transacciones online bajo CICS para operaciones contables.</li>
+        <li>Optimización de SQLs y ajustes de rendimiento en estructuras DB2 de alto volumen.</li>
+        <li>Automatización de procesos mensuales y tareas de soporte con REXX y JCL.</li>
+        <li>Participación activa en dailys, refinamientos y releases bajo metodología Scrum.</li>
+        <li>Coordinación de pruebas funcionales (UAT) y técnicas (SIT), junto a usuarios y QA.</li>
+        <li>Responsable de la guardia nocturna remota para asegurar procesos críticos del banco.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h3>🎓 Formación Académica</h3>
+      <p><strong>Universidad Nacional de La Matanza</strong><br>
+      Título: Analista Programador Universitario</p>
+    </div>
+    <div class="section">
+      <h3>🏆 Competencias Destacadas</h3>
+      <ul>
+        <li>Pensamiento analítico y orientación a resultados</li>
+        <li>Comunicación fluida con usuarios de negocio y áreas técnicas</li>
+        <li>Proactividad, autonomía y capacidad de adaptación</li>
+        <li>Liderazgo técnico en tareas de diseño, soporte e implementación</li>
+        <li>Foco en calidad y mejora continua</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h3>🌐 Idiomas</h3>
+      <ul>
+        <li>Español: Nativo</li>
+        <li>Inglés: Técnico (lectura y documentación)</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h3>🚀 Intereses Profesionales</h3>
+      <ul>
+        <li>Participar en proyectos de Mantenimiento y modernización / migración de sistemas legacy</li>
+        <li>Mentoría de perfiles juniors en entornos Mainframe</li>
+        <li>Mejora continua, automatización y eficiencia operativa</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
